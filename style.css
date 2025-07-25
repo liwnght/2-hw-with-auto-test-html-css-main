@@ -29,7 +29,7 @@ header.span {
 
 .main-section {
     /* Стили для первой секции */
-    background-color: #fafaff;
+    background-color: #FAFAFF;
     padding: 60px 0;
     min-height: 100vh;
 }
@@ -56,52 +56,109 @@ header.span {
 
 .about-section {
     /* Стили для второй секции */
+    background-color: #FFFFFF;
+    padding: 100px 0;
+
 }
 
 select {
     /* Стили для выпадающего списка */
+    width: 150px;
+    height: 36px;
+    font-weight: 400;
+    font-size: 16px;
+    list-style-image: url(./images/ep_arrow-down.svg);
+    padding: 8px;
 }
 
 .section-title {
     /* Стили для заголовков во второй секции */
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 25px;
 }
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
+    list-style-image: url(./images/solar_map-arrow-up-bold.svg);
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 20px;
 }
 
 .label {
     /* Стили для подписей чекбоксов */
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .text-field {
     /* Стили для односточного поля ввода текста */
+    width: 464px;
+    height: 36px;
+    padding: 9px;
+    border-radius: 5px;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .btn {
     /* Стили для кнопки */
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    width: 125px;
+    height: 36px;
+    background: #2965f1;
+    border: none;
 }
 
 .line {
     /* Стили для линии */
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 table {
     /* Стили для таблицы */
+    border-collapse: collapse;
+    border: 1px solid #95a1bb;
+    width: 113px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
 }
 
 th, td {
     /* Стили для ячеек таблицы */
+    padding: 10px;
 }
 
 footer {
     /* Стили для футера */
+    background-color: #A3A7FF;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .footer-link {
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
+    text-decoration: none;
     /* Стили для футера */
 }
