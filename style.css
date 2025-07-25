@@ -18,8 +18,12 @@ header {
     color: #fff;
 }
 
-header span {
+header.span {
     /* Стили для текста в хедере IT-INCUBATOR */
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
 }
 
 .main-section {
