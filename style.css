@@ -38,11 +38,11 @@ header.span {
     /* Стили для заголовка в первой секции */
     font-weight: 700;
     font-size: 48px;
+    margin-bottom: 20px;
 }
 
 .main-text {
     /* Стили для текста в первой секции */
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 20px;
@@ -69,6 +69,9 @@ select {
     font-size: 16px;
     list-style-image: url(./images/ep_arrow-down.svg);
     padding: 8px;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
 }
 
 .section-title {
