@@ -11,6 +11,11 @@ body {
 
 header {
     /* Стили для хедера */
+    background-color: #2965f1;
+    padding: 23px 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
 }
 
 header span {
